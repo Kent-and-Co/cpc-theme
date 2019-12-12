@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"sass/style.scss"
+	],
+	"sourcesContent": [
+		"// compileExpanded: ../style.css\n/*\nTheme Name: cpcサイト用テーマ\nTheme URL: https://example.com/\nDescription: Twenty-Twentyをベースにしたcpcサイト用子テーマ\nAuthor: sasagar\nVersion: 1.0\nLicense: GNU General Public License v2 or later\nLicense URI: LICENSE\nTemplate: twentytwenty\n*/\n"
+	],
+	"names": [],
+	"mappings": ";AACA;;;;;;;;;EASE"
+}
