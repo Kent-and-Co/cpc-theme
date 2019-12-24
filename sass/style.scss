@@ -1,11 +1,18 @@
 // compileExpanded: ../style.css
+
 /*
 Theme Name: cpcサイト用テーマ
 Theme URL: https://example.com/
-Description: Twenty-Twentyをベースにしたcpcサイト用子テーマ
+Description: Lightningをベースにしたcpcサイト用子テーマ
 Author: sasagar
-Version: 1.0
+Version: 1.1
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Template: twentytwenty
+Template: lightning
 */
+@import 'common';
+@import 'topheadding';
+@import 'topseparater';
+@import 'topcalendar';
+@import 'topwidget';
+@import 'topcpcinfo';

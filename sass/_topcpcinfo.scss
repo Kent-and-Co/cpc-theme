@@ -1,0 +1,22 @@
+// main: style.scss
+.cpc-top-info {
+  width: 100vw;
+  background-color: #fef9a7;
+  margin-left: -15px;
+
+  @media (min-width: 576px) {
+    margin-left: calc((100vw - 540px) / 2 * -1 - 15px);
+  }
+
+  @media (min-width: 768px) {
+    margin-left: calc((100vw - 720px) / 2 * -1 - 15px);
+  }
+
+  @media (min-width: 992px) {
+    margin-left: calc((100vw - 960px) / 2 * -1 - 15px);
+  }
+
+  @media (min-width: 1200px) {
+    margin-left: calc((100vw - 1140px) / 2 * -1 - 15px);
+  }
+}

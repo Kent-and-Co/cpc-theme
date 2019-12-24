@@ -1,0 +1,31 @@
+// main: style.scss
+.cpc-top-info {
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: #ffd5d2;
+
+  &::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -60px;
+    border-top: 30px solid transparent; /* 透明 */
+    border-left: 50vw solid transparent; /* 透明 */
+    border-right: 50vw solid #ffd5d2; /* 薄い赤 */
+    border-bottom: 30px solid #ffd5d2; /* 薄い赤 */
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    border-bottom: 30px solid transparent; /* 透明 */
+    border-right: 50vw solid transparent; /* 透明 */
+    border-left: 50vw solid #ffd5d2; /* 薄い赤 */
+    border-top: 30px solid #ffd5d2; /* 薄い赤 */
+  }
+}
